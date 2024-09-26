@@ -35,8 +35,8 @@
             <div class="col-lg-4">
                 <h4 class="text-uppercase mb-4">Contactos</h4>
                 <p class="lead mb-0">
-                    <b>Telefono: </b> 3874874562
-                    <a href="#">Ini_computacion@gmail.com</a>
+                    <b>Telefono: </b> 3874874562 <br>
+                    <b>Correo: </b>Ini_computacion@gmail.com
                 </p>
             </div>
         </div>

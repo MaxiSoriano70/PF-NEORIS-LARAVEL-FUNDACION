@@ -182,61 +182,61 @@
                 <form></form>
                     <div class="mb-3">
                         <label class="form-label" for="Nombre">*Nombre</label>
-                        <input id="Nombre_R" name="Nombre" type="text" class="form-control" id="Nombre" required>
+                        <input id="Nombre_R" name="Nombre" type="text" class="form-control" required>
                         @if ($errors->has('Nombre'))
                           <div>*El campo Nombre no puede se null</div><br>
                         @endif
                       </div>
                     <div class="mb-3">
                         <label class="form-label" for="Apellido">*Apellido</label>
-                        <input id="Apellido_R" name="Apellido" type="text" class="form-control" id="Apellido" required>
+                        <input id="Apellido_R" name="Apellido" type="text" class="form-control" required>
                         @if ($errors->has('Apellido'))
                           <div>*El campo Direecion no puede se null</div><br>
                         @endif
                     </div>
                     <div class="mb-3">
                         <label class="form-label" for="Dni">*Dni</label>
-                        <input id="Dni_R" name="Dni" type="number" class="form-control" id="Dni" required>
+                        <input id="Dni_R" name="Dni" type="number" class="form-control" required>
                         @if ($errors->has('Dni'))
                           <div>*El campo DNI no puede se null</div><br>
                         @endif
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">*Email</label>
-                      <input id="Email_R" name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                      <input id="Email_R" name="Email" type="email" class="form-control" aria-describedby="emailHelp" required>
                       @if ($errors->has('Email'))
                         <div>*El campo Email no puede se null y tiene que tener la siguiente estructura "example@example.com"</div><br>
                       @endif
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label">*Contraseña</label>
-                      <input id="Clave_R" name="Clave" type="password" class="form-control" id="exampleInputPassword1" required>
+                      <input id="Clave_R" name="Clave" type="password" class="form-control" required>
                       @if ($errors->has('Clave'))
                         <div>*El campo Contraseña no puede se null"</div><br>
                       @endif
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">*Confirmar Contraseña</label>
-                        <input id="Clave_R_C" name="Clave_c" type="password" class="form-control" id="exampleInputPassword1" required>
+                        <input id="Clave_R_C" name="Clave_c" type="password" class="form-control" required>
                         @if ($errors->has('Clave_c'))
                           <div>*La contraseñas no coinciden</div><br>
                         @endif
                       </div>
                       <div class="mb-3">
                         <label id="Codigo_Area_R" class="form-label">Codigo de Area</label>
-                        <input name="Codigo_Area" type="number" class="form-control" id="Codigo_Area">
+                        <input name="Codigo_Area" type="number" class="form-control">
                       </div>
                     <div class="mb-3">
                         <label class="form-label">Telefono</label>
-                        <input id="Telefono_R" name="Telefono" type="number" class="form-control" id="Telefono">
+                        <input id="Telefono_R" name="Telefono" type="number" class="form-control" >
                       </div>
                     <div class="mb-3">
                         <label class="form-label">Fecha de Nacimiento</label>
-                        <input id="Fecha_de_Nacimiento_R" name="Fecha_de_nacimiento" type="date" class="form-control" id="FechadeNacimiento">
+                        <input id="Fecha_de_Nacimiento_R" name="Fecha_de_nacimiento" type="date" class="form-control">
                       </div>
                     <div class="mb-3">
                         <label class="form-label">Direccion</label>
-                        <input id="Direccion_R" name="Direccion" type="text" class="form-control" id="Direccion">
+                        <input id="Direccion_R" name="Direccion" type="text" class="form-control">
                       </div>
                     <div id="emailHelp" class="form-text my-3">Los campos con * son abligatorios.</div>
           </div>
@@ -249,12 +249,6 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
 </div>
 @include('Libs.Footer')
 <script>

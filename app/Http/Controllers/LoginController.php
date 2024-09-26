@@ -129,10 +129,10 @@ class LoginController extends Controller
             $Respuesta=DB::insert("INSERT INTO estudiantes(Nombre,Apellido,Dni,Email,Clave,Codigo_Area,Telefono,Fecha_Nacimiento,Direccion)
             VALUES (?,?,?,?,?,?,?,?,?)", [$Nombre,$Apellido,$Dni,$Email,$Clave_1,$Codigo_Area,$Telefono,$Fecha_Nacimiento,$Direccion]);
             if($Respuesta){
-                return redirect()->route('Login.index');
+                return redirect()->route('Welcome.index');
             }
             else{
-                return redirect()->route('Institucion.index');
+                return redirect()->route('Login.index');
             }
         }
         else{
