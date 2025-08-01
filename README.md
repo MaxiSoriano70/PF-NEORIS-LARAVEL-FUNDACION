@@ -89,7 +89,7 @@ Este es un sistema web desarrollado con **Laravel** y **Bootstrap** para la admi
 
 ## 📘 Notas
 
-- Proyecto desarrollado en contexto de aprendizaje profesional con beca.
+- Proyecto desarrollado en contexto de aprendizaje profesional con beca en Impulsando Talento – NEORIS Becas.
 - Código 100% funcional con estructura Laravel MVC.
 - Incluye migraciones, controladores y vistas personalizadas.
 - Sugerido para instituciones educativas pequeñas o medianas.
