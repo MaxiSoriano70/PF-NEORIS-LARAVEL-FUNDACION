@@ -1,7 +1,7 @@
 
 # 🎓 Gestor de Cursos con Laravel y Bootstrap
 
-Este es un sistema web desarrollado con **Laravel** y **Bootstrap** para la administración de cursos, estudiantes, personal y procesos educativos en una institución. El proyecto fue realizado como parte de un curso de formación profesional en el cual fui becado.
+Este es un sistema web desarrollado con **Laravel** y **Bootstrap** para la administración de cursos, estudiantes, personal y procesos educativos en una institución. El proyecto fue realizado como parte de un curso de formación profesional en el cual fui becado en **Neoris junto a la Universidad Tecnológica Nacional (UTN)**.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" alt="Laravel" width="300">
