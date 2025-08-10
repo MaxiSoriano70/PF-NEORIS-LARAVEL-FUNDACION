@@ -105,4 +105,5 @@ Este es un sistema web desarrollado con **Laravel** y **Bootstrap** para la admi
 ## 📬 Contacto
 
 Desarrollado por Maximiliano Soriano
-📧 maxi.soriano.70.23@gmail.com
+📧 Email: [maxi.soriano.70.23@gmail.com](mailto:maxi.soriano.70.23@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/maximilianosoriano](https://www.linkedin.com/in/maximiliano-soriano/)
